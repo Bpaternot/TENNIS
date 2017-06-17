@@ -32,6 +32,28 @@ club2.city = "Paris"
 club2.country = "France"
 club2.public = true
 
+club3 = Club.new
+club3.name_club = "Atlantique"
+club3.number_address = "25"
+club3.street = "allée du Capitaine Dronne - Dalle Montparnasse porche ouest"
+club3.zip = "75015"
+club3.district = "15"
+club3.city = "Paris"
+club3.country = "France"
+club3.public = true
+
+club4 = Club.new
+club4.name_club = "Aurelle de Paladines"
+club4.number_address = "10"
+club4.street = "rue Parmentier"
+club4.zip = "92200"
+club4.district = "Neuilly"
+club4.city = "Neuilly sur Seine"
+club4.country = "France"
+club4.public = true
+
+
+
 
 #club  Alain Mimoun
 tennis_court = Tennis_court.new
@@ -83,7 +105,65 @@ tennis_court.price_per_hour = 9
 tennis_court.club = club1
 #_____________________________________________________________________
 
+#club Amandiers
+tennis_court = Tennis_court.new
+tennis_court.court_name = "1"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = true
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club2
 
+tennis_court = Tennis_court.new
+tennis_court.court_name = "2"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = true
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club2
+#___________________________________________________________________
+#club Atlantique
+tennis_court = Tennis_court.new
+tennis_court.court_name = "1"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = false
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club3
+
+tennis_court = Tennis_court.new
+tennis_court.court_name = "2"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = false
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club3
+
+tennis_court = Tennis_court.new
+tennis_court.court_name = "3"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = false
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club3
+
+tennis_court = Tennis_court.new
+tennis_court.court_name = "4"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = false
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club3
+
+tennis_court = Tennis_court.new
+tennis_court.court_name = "5"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = false
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club3
+#___________________________________________________________________
+#club
 
 
 
