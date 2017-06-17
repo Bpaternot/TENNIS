@@ -163,7 +163,33 @@ tennis_court.light = false
 tennis_court.price_per_hour = 9
 tennis_court.club = club3
 #___________________________________________________________________
+#club Aurelle de Paladines
+tennis_court = Tennis_court.new
+tennis_court.court_name = "1"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = false
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club4
+
+tennis_court = Tennis_court.new
+tennis_court.court_name = "2"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = false
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club4
+
+tennis_court = Tennis_court.new
+tennis_court.court_name = "3"
+tennis_court.surface_type = "Béton poreux"
+tennis_court.covered = false
+tennis_court.light = false
+tennis_court.price_per_hour = 9
+tennis_court.club = club4
+#___________________________________________________________________
 #club
+
 
 
 
